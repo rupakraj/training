@@ -1,132 +1,153 @@
-%
-% Syllabus template for use with http://kjhealy.github.com/latex-custom-kjh
-%
-\documentclass[11pt,article,oneside]{memoir}
+\documentclass[12pt,a4paper]{article}
 
-%% Script-based version control (requires vc package)
-% \input{vc}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{xcolor}
 
-\usepackage{graphicx,url}
-\usepackage{rotating}
-\usepackage{memoir-article-styles} % in latex-custom-kjh/needs-memoir
+\hypersetup{
+  colorlinks=true,
+  citecolor=orange,
+  linkcolor=purple,
+  urlcolor=blue,
+  pdftitle="ASP.NET MVC Training Outline",
+  pdfauthor=rupak,
+  pdfsubject=Syllabus of Training,
+  pdfkeywords={MVC, ASP.NET, ASP.NET MVC, .NET. C\#},
+  unicode=true
+}
 
-%% Choose font system. Comment out these lines if you are not using xelatex
-\usepackage{fontspec}
-\usepackage{xunicode}
 
-% Biblatex
-\usepackage[american]{babel}
-\usepackage[babel]{csquotes}
-\usepackage[style=authoryear,
-            bibstyle=authoryear,
-            citestyle=authoryear-comp,
-            uniquename=false,
-            hyperref=true,
-            backend=biber, babel=hyphen, bibencoding=inputenc]{biblatex}
-
-%% Fix biblatex's odd preference for using In: by default.
-\renewbibmacro{in:}{%
-  \ifentrytype{article}{}{%
-  \printtext{\bibstring{}\intitlepunct}}}
-
-%% Bibliography from http://kjhealy.github.com/socbibs/
-\addbibresource{/Users/kjhealy/Documents/bibs/socbib.bib}
-
-% Definitions
-\def\myauthor{Kieran Healy}
-\def\mytitle{Sociology 155: Organizations and Management}
-\def\mysubtitle{Syllabus}
-\def\mycopyright{\myauthor}
-\def\mykeywords{}
-\def\mybibliostyle{plain}
-\def\mybibliocommand{}
-\def\mysubtitle{}
-\def\myaddress{276 Soc/Psych}
-\def\myemail{kjhealy@soc.duke.edu}
-\def\myweb{http://www.kieranhealy.org}
-\def\myphone{660-5737}
-\def\myaffiliation{\ \\Duke University}
-\def\mykeywords{Sociology, Syllabus, Undergraduate, Organizations, Management}
-
-%% Links
-\usepackage[usenames,dvipsnames]{color}
-\usepackage[xetex,
-colorlinks=true,
-urlcolor=BrickRed,
-plainpages=false,
-   pdfpagelabels,
-   bookmarksnumbered,
-   pdftitle={\mytitle},
-   pdfauthor={\myauthor},
-   pdfkeywords={\mykeywords}
-   ]{hyperref}
-
-%% Uncomment to make a "DRAFT" watermark
-% Page watermark
-% \usepackage{type1cm,eso-pic}
-% \makeatletter
-% \AddToShipoutPicture{%
-% \setlength{\@tempdimb}{.5\paperwidth}%
-% \setlength{\@tempdimc}{.5\paperheight}%
-% \setlength{\unitlength}{1pt}%
-% \put(\strip@pt\@tempdimb,\strip@pt\@tempdimc){%
-% \makebox(0,0){\rotatebox{45}{\textcolor[gray]{0.9}%
-% {\fontsize{3cm}{3cm}\selectfont{Draft Only}}}}%
-% Marginal Watermark
-% \makebox(-100,-300){\rotatebox{45}{\textcolor[gray]{0.95}%
-% {\fontsize{2cm}{2cm}\selectfont{}}}}
-% \makebox(-500,-0){\rotatebox{90}{\textcolor[gray]{0.95}%
-% {\fontsize{0.7cm}{0.7cm}\selectfont{}}}}
-% }%
-% }
-% \makeatother
+\pagenumbering{roman}
 
 \begin{document}
 
-%%% xelatex font choices
-%\defaultfontfeatures{}
-%\defaultfontfeatures{Scale=MatchLowercase}
-% You will need to buy these fonts, change the names to fonts you own, or comment out if not using xelatex.
-\setromanfont[Mapping=tex-text]{Minion Pro}
-\setsansfont[Mapping=tex-text]{Myriad Pro}
-\setmonofont[Mapping=tex-text,Scale=0.8]{Pragmata}
 
-%% blank label items; hanging bibs for text
-%% Custom hanging indent for vita items
-\def\ind{\hangindent=1 true cm\hangafter=1 \noindent}
-\def\labelitemi{$\cdot$}
-%\renewcommand{\labelitemii}{~}
+\section*{ASP.NET MVC Training Outline}
 
-% Make figures as wide as the margins
-\setkeys{Gin}{width=1\textwidth}
+\rule{15cm}{0.4pt}
 
-\chapterstyle{article-2} % alternative styles are defined in latex-custom-kjh/needs-memoir/. Consider e.g.\chapterstyle{article-4}
-\pagestyle{kjh}
-  
-\title{\mytitle}
-\author{\myauthor\smallskip\footnotesize\newline Office: 276 Sociology/Psychology \newline\texttt{\myemail} \newline \url{http://www.kieranhealy.org}}
-\date{}
+\indent\textbf{Duration:} 60 Hr.
 
-\published{\sffamily Spring 2010 / Tu\&Th 1:15--2:30pm / Gray 228}
+\subsection*{Objectives}
 
-\maketitle
+\begin{itemize}
+	\item Understand MVC pattern of programming
+	\item Implementing MVC in ASP.NET Framework
+	\item Using ASP.NET MVC to develop web applications
+	\item Learn and use Entity-Framework (ORM) for accessing data 
+\end{itemize}
 
-% Include version information in footer if using vc package (see above).
-% \thispagestyle{kjhgit}
+\subsection*{Prerequisites}
+
+\textbf{Duration:} \dots{}\dots{}\dots{}\dots{} 15 Hr.
+\begin{itemize}
+	\item HTML, Basic CSS
+    \item JavaScript
+	\item Programming using C\# 
+        (variables, function, class, objects etc.)
+    \item SQL - Insert, Update, Delete, Select(on single table, join), view
+    \item Using Visual Studio(VS-2013 recommended)
+\end{itemize}
+
+\noindent\rule{15cm}{0.4pt}
+
+\subsection*{Course Outline}
+
+Following will be the outline for the training-
+\begin{itemize} 
+    \item \textbf{Basic of MVC} \hfill 3 Hr.    
+    \begin{itemize}
+        \item MVC- an Introduction
+        \item MVC- difference with other patterns
+        \item MVC- with ASP.NET (MVC4 or 5 with .NET Framework
+                    4 or 4.5, Visual Studio 2012 or 2013).
+        \item Package Manager Console - an Introduction and uses 
+    \end{itemize} 
+
+    \item \textbf{ASP.NET MVC} \hfill 25 Hr.
+    \begin{itemize}
+        \item View Engine (Razor)
+            \begin{itemize}
+                \item Introduction
+                \item Programming Razor 
+                        (variables, conditions, loop etc.)                
+            \end{itemize}
+        \item Adding Model, Controller, View
+        \item Routing
+            \begin{itemize}
+                \item URL conventions
+                \item Creating new route
+            \end{itemize}
+        \item Communication between M-V-C \\
+        Passing Model to the Controller and View
+        \item Scaffolding Controller and View using Model
+        \item Creating and Using Partial View
+        \item C\# Code injection in View
+        \item Helpers(Html, Url etc.) in Razor
+        \item Generating and Processing input forms
+    \end{itemize}
+    \item \textbf{Object Relational Mapping using EF} \hfill 10 Hr.
+    \begin{itemize}        
+        \item Data Retrial + Manipulation using Entity-Framework (EF)
+        \item Language Integrated Query (LINQ)
+        \item Sync Database and EF entities
+        \item Using EF-Code First and Design First 
+                (EF-Code first is preferred)
+         
+    \end{itemize}
+
+    \item \textbf{ASP.NET Application Stuffs} \hfill 5 Hr.
+    \begin{itemize}        
+        \item Session
+        \item Cookies
+        \item Web Configuration file
+        \item Global Configuration
+        \item Bundling Script and CSS files 
+    \end{itemize}
+
+    \item \textbf{Client Side Scripting} \hfill 3 Hr.
+    \begin{itemize}        
+        \item JQuery
+    \end{itemize}
 
 
-% Copyright Page
-% \textcopyright{} \mycopyright
+    \item \textbf{Application Deployment} \hfill 1 Hr.
+    \begin{itemize}        
+        \item Web Server (IIS) - an Introduction
+        \item Creating Web Site
+        \item Hosting Web Site in IIS 
+        \item Application Configuration
+    \end{itemize}
 
+    \item \textbf{Architecting ASP.NET MVC Project} \hfill 3 Hr.
+    \begin{itemize}        
+        \item Separation of Concern (SoC)
+        \item Scalability Issues
+        \item Maintainability Issues
+    \end{itemize}
 
-%
-% Main Content
-%
+    \item \textbf{Discussion on Project work and Project Kick-off}   \hfill 3 Hr.
 
-\section{Course Description and Objectives}
+    \item \textbf{Mentoring a Project} \hfill 7 Hr.\\
+            The instructor will be available for problem discussion during the project work. But student have to engage themselves on work.     The real project work requires more than 30 Hr. of work, so students are requested to work on their own to complete the project.
+\end{itemize}
 
-%\newpage
-%% Uncomment if you want a printed bibliography.
-%\printbibliography
+\subsection*{Sample Projects}
+    \begin{itemize}
+        \item Content Management System(CMS) \\
+                It is the website with basic idea of CMS(article, image gallery, menus), with admin panel and web pages.
+                \\
+                \textbf{Estimated Duration: 75 Hr.}
+
+        \item eBilling System \\
+                The project is about the sales billing of small shop.
+                \\
+                \textbf{Estimated Duration: 70 Hr.}
+        \item Class Room Scheduling Helper \\
+                The project will help the training institute to schedule the class room, assign student and teacher to particular class etc.
+                \\
+                \textbf{Estimated Duration: 75 Hr.}
+    \end{itemize}
+
 
 \end{document}
