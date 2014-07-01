@@ -1,1 +1,1 @@
-Traning Materials and Sullabus
+Traning Materials and Syllabus
