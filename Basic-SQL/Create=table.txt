@@ -1,0 +1,76 @@
+================
+Createting table
+================
+
+1. table
+syntax: 
+	create table <tablename> ( list of column with data types);
+
+Example:
+- Simple table
+		create table student (
+			stuID integer,
+			stuName varchar(20),
+			stuAddress varchar(50),
+			classID integer,
+			rollNo integer
+			)
+	Abobe query create a table named student with  stuID, stuName etc. columns.
+
+- With NOT NULL - this attribute is applicable to the columns that cant be null.
+
+		create table student (
+			stuID integer NOT NULL,
+			stuName varchar(20) NOT NULL,
+			stuAddress varchar(50),
+			classID integer,
+			rollNo integer
+			)
+
+	Abobe query create the same table as previous one but we cant add 
+	the data without StuID and StuName. They are Not null attribute 
+	means they are mandatory
+
+- Primary Key
+	Primary Key is one of the constraint in the database which inforces the 
+	uniqueness in the rows of table. It is required to update, retrive and 
+	delete the data.
+
+		create table student (
+			stuID integer NOT NULL Primary key,
+			stuName varchar(20) NOT NULL,
+			stuAddress varchar(50),
+			classID integer,
+			rollNo integer
+			)
+	The values of primary key must be not null and unique.
+
+
+- Type Checking
+	- Check is also the constraint which validates the data in the table.
+
+		create table student (
+			name char(15) not null
+			student-id char(10) not null
+			degree-level char(15) not null
+			check (degree-level in('Bachelors', 'Masters', 'Doctorate'))
+		)
+
+==========================
+Deleteting table
+==========================
+
+Syntax: Drop table <tableName>
+
+Example: Drop table student;
+
+
+==========================
+Deleteting all data
+==========================
+Syntax: Delete table
+
+Example: Delete student; 
+
+
+

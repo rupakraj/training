@@ -1,0 +1,25 @@
+=================
+Common Data Types
+=================
+
+
+int 		- integer data
+float		- single precision floating point data
+char		- single ascii character
+nchar		- single utf8 character
+varchar		- variable length character
+				varchar(size)
+					- varchar(50)
+
+nvarchar	- variable lenght utf8 character
+				nvarchar(size)
+					- nvarchar(100)
+
+decimal		- double precision floating point data
+				decimal(m,n)
+					- decimal(8,2) => 12154545.12
+
+datetime	- to store time stamp or date.
+
+
+
