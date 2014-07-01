@@ -1,0 +1,27 @@
+
+select sum(Salary) as 'Total Salary'  from tblTeacher
+select count(*) from tblTeacher
+select max(Salary) from tblTeacher
+
+select * from tblTeacher 
+select * from tblTeacher where TAddress ='KTM' and Salary >10
+
+insert into tblTeacher values('Hari ram', 'KTM', 1200.00)
+
+insert into tblTeacher (TName, Salary) values('SITA',120000.00)
+
+delete tblTeacher where TID = 1006
+
+
+select * from tblTeacher
+
+update tblTeacher 
+	set TAddress ='BKT',
+	Salary = 1000
+	where TID = 1002
+
+
+update tblTeacher
+	set Salary = Salary+Salary*.1
+
+select * from tblTeacher
