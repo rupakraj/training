@@ -1,0 +1,6 @@
+E:\Training\training\IT-Training\CRUD-Basic\CRUDBasic\CRUDBasic\bin\CRUDBasic.dll.config
+E:\Training\training\IT-Training\CRUD-Basic\CRUDBasic\CRUDBasic\bin\CRUDBasic.dll
+E:\Training\training\IT-Training\CRUD-Basic\CRUDBasic\CRUDBasic\bin\CRUDBasic.pdb
+E:\Training\training\IT-Training\CRUD-Basic\CRUDBasic\CRUDBasic\obj\Debug\CRUDBasic.csprojResolveAssemblyReference.cache
+E:\Training\training\IT-Training\CRUD-Basic\CRUDBasic\CRUDBasic\obj\Debug\CRUDBasic.dll
+E:\Training\training\IT-Training\CRUD-Basic\CRUDBasic\CRUDBasic\obj\Debug\CRUDBasic.pdb
