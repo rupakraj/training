@@ -14,7 +14,8 @@ namespace CRUDBasic
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string username = Session["username"].ToString();
+            lblUserName.Text = username;
         }
 
         protected void btnSave_Click(object sender, EventArgs e)

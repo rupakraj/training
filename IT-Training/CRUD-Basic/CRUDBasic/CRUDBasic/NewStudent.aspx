@@ -8,7 +8,22 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <div style="background:#b6ff00; height:150px;">
+            <div style="float:left;">
+
+            </div>
+            <div style ="float:right;">
+                <b>Welcome ! </b>
+                <asp:Label ID="lblUserName" runat="server" Text=""></asp:Label>
+                <%
+                    //string user = Session["username"].ToString();
+                    //Response.Write(user);
+                    
+                     %>
+            </div>
+        </div>
     <div>
+
     <table>
         <tr>
             <td>
