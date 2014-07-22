@@ -1,0 +1,14 @@
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS.WIN\bin\Debug\PPMS.WIN.exe.config
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS.WIN\bin\Debug\PPMS.WIN.exe
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS.WIN\bin\Debug\PPMS.WIN.pdb
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS.WIN\bin\Debug\PPMS.BLL.dll
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS.WIN\bin\Debug\PPMS.DTO.dll
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS.WIN\bin\Debug\PPMS.DLL.dll
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS.WIN\bin\Debug\PPMS.BLL.pdb
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS.WIN\bin\Debug\PPMS.DTO.pdb
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS.WIN\bin\Debug\PPMS.DLL.pdb
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS.WIN\obj\Debug\PPMS.WIN.csprojResolveAssemblyReference.cache
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS.WIN\obj\Debug\PPMS.WIN.Properties.Resources.resources
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS.WIN\obj\Debug\PPMS.WIN.csproj.GenerateResource.Cache
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS.WIN\obj\Debug\PPMS.WIN.exe
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS.WIN\obj\Debug\PPMS.WIN.pdb

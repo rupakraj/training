@@ -1,0 +1,12 @@
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS\bin\PPMS.dll.config
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS\bin\PPMS.dll
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS\bin\PPMS.pdb
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS\bin\PPMS.BLL.dll
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS\bin\PPMS.DTO.dll
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS\bin\PPMS.DLL.dll
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS\bin\PPMS.BLL.pdb
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS\bin\PPMS.DTO.pdb
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS\bin\PPMS.DLL.pdb
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS\obj\Debug\PPMS.csprojResolveAssemblyReference.cache
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS\obj\Debug\PPMS.dll
+E:\Training\training\IT-Training\Application-Arch\PPMS\PPMS\obj\Debug\PPMS.pdb
