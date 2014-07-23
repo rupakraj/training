@@ -13,7 +13,7 @@ namespace PPMS
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Session["username"] = null;
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)
@@ -36,7 +36,8 @@ namespace PPMS
 
             if (ret_val == true)
             {
-                Response.Write("Login success");
+                Session["username"] = txtUserName.Text;
+                Response.Redirect("Default.aspx");
             }
             else
             {

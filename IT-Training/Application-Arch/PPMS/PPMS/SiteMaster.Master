@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="PPMS.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="body-wrapper">
+            <div id="header">
+                <div id ="logo"> 
+                    <h1>PPMS</h1>
+                </div>
+                <div id ="user"> 
+                    <asp:Label ID ="lblUsername" runat="server"></asp:Label>
+                </div>
+                
+            </div>
+            <div id="body">
+                <div id="body-left">
+                    <ul>
+                        <li>One</li>
+                        <li>One</li>
+                        <li>One</li>
+                        <li>One</li>
+                        <li>One</li>
+                        <li>One</li>
+                    </ul>
+                    <asp:ContentPlaceHolder ID ="content_left" runat="server">
+
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div id="body-right">
+                    <asp:ContentPlaceHolder ID="main_body" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="footer">
+                &copy; ABC Inc.
+            </div>
+        </div>
+    </form>
+</body>
+</html>
