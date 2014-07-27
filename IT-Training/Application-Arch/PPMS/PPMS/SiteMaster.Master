@@ -5,6 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
     <link href="style.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -24,7 +29,11 @@
             <div id="body">
                 <div id="body-left">
                     <ul>
-                        <li>One</li>
+                        <li>
+                            <a href="FuleType.aspx">
+                                Fuel Types
+                            </a>
+                        </li>
                         <li>One</li>
                         <li>One</li>
                         <li>One</li>

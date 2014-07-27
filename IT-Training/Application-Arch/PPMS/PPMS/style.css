@@ -6,7 +6,7 @@
 }
 
 #body-wrapper {
-    width: 900px;
+    width: 1200px;
     margin: 0px auto;
     padding: 0px;
 }
@@ -47,4 +47,8 @@
 #user{
     float:right;
     font-size:11px;
+}
+
+#data-table{
+    border:1px solid #ff6a00;
 }
