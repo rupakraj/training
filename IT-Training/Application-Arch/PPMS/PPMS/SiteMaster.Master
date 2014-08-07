@@ -45,6 +45,19 @@
                     </asp:ContentPlaceHolder>
                 </div>
                 <div id="body-right">
+                    <div class="aler alert-danger">
+                        <% if(Session["Error"]!=null) {
+                               Response.Write(Session["Error"].ToString());
+                               Session["Error"] = null;
+                           } %>
+                    </div>
+
+                    <div class="aler alert-info">
+                        <% if(Session["Info"]!=null) {
+                               Response.Write(Session["Info"].ToString());
+                               Session["Info"] = null;
+                           } %>
+                    </div>
                     <asp:ContentPlaceHolder ID="main_body" runat="server">
                     </asp:ContentPlaceHolder>
                 </div>

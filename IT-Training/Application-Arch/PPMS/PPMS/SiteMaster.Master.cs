@@ -11,8 +11,15 @@ namespace PPMS
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            lblUsername.Text = "Welcome: "+  Session["username"].ToString();
-            lblUsername.Text += " <a href='Login.aspx'> Logout</a>";
+            if (Session["username"] != null)
+            {
+                lblUsername.Text = "Welcome: " + Session["username"].ToString();
+                lblUsername.Text += " <a href='Login.aspx'> Logout</a>";
+            }
+            else
+            {
+                Response.Redirect("Login.aspx");
+            }
         }
     }
 }

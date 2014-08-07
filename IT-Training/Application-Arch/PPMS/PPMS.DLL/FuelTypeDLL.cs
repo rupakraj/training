@@ -23,7 +23,7 @@ namespace PPMS.DLL
         }
         public bool UpdateFuelType(FuelTypeDTO fuleTypeDTO)
         {
-            string sql = "update FuleTypes set FuelTypeName='" + fuleTypeDTO.FuleTypeName
+            string sql = "update FuelTypes set FuelTypeName='" + fuleTypeDTO.FuleTypeName
                 + @"' where FuelTypeID =" + fuleTypeDTO.FuelTypeID;
             db = new DBAccess();
             int rows_affected = db.ExecuteNonQuery(sql);
@@ -53,7 +53,7 @@ namespace PPMS.DLL
             {
                 FuelTypeDTO fuelTypeDTO = new FuelTypeDTO();
                 fuelTypeDTO.FuelTypeID = int.Parse(dt.Rows[0]["FuelTypeID"].ToString());
-                fuelTypeDTO.FuleTypeName = dt.Rows[0]["FuleTypeName"].ToString();
+                fuelTypeDTO.FuleTypeName = dt.Rows[0]["FuelTypeName"].ToString();
                 return fuelTypeDTO;
             }
         }
