@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\Published\PPMS</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="assets/css/bootstrap.min.css">
+      <publishTime>07/27/2014 18:51:36</publishTime>
+    </File>
+    <File Include="assets/font-awesome/css/font-awesome.css">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/css/font-awesome.min.css">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/bordered-pulled.less">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/core.less">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/fixed-width.less">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/font-awesome.less">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/icons.less">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/larger.less">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/list.less">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/mixins.less">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/path.less">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/rotated-flipped.less">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/spinning.less">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/stacked.less">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/less/variables.less">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/font-awesome.scss">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_core.scss">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_fixed-width.scss">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_icons.scss">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_larger.scss">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_list.scss">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_mixins.scss">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_path.scss">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_spinning.scss">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_stacked.scss">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/font-awesome/scss/_variables.scss">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/27/2014 18:53:37</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap.min.js">
+      <publishTime>07/27/2014 18:52:48</publishTime>
+    </File>
+    <File Include="assets/js/jquery-1.10.2.js">
+      <publishTime>07/27/2014 18:52:48</publishTime>
+    </File>
+    <File Include="bin/PPMS.BLL.dll">
+      <publishTime>08/06/2014 18:22:42</publishTime>
+    </File>
+    <File Include="bin/PPMS.BLL.pdb">
+      <publishTime>08/06/2014 18:22:42</publishTime>
+    </File>
+    <File Include="bin/PPMS.dll">
+      <publishTime>08/13/2014 17:38:50</publishTime>
+    </File>
+    <File Include="bin/PPMS.DLL.dll">
+      <publishTime>08/06/2014 18:22:41</publishTime>
+    </File>
+    <File Include="bin/PPMS.DLL.pdb">
+      <publishTime>08/06/2014 18:22:41</publishTime>
+    </File>
+    <File Include="bin/PPMS.DTO.dll">
+      <publishTime>08/06/2014 17:43:03</publishTime>
+    </File>
+    <File Include="bin/PPMS.DTO.pdb">
+      <publishTime>08/06/2014 17:43:03</publishTime>
+    </File>
+    <File Include="bin/PPMS.pdb">
+      <publishTime>08/13/2014 17:38:50</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>07/23/2014 18:33:35</publishTime>
+    </File>
+    <File Include="FuleType.aspx">
+      <publishTime>08/06/2014 18:22:02</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/16/2014 18:03:23</publishTime>
+    </File>
+    <File Include="InflowAdd.aspx">
+      <publishTime>08/12/2014 17:42:09</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>07/27/2014 19:11:05</publishTime>
+    </File>
+    <File Include="SiteMaster.Master">
+      <publishTime>08/12/2014 17:40:49</publishTime>
+    </File>
+    <File Include="style.css">
+      <publishTime>07/27/2014 19:04:02</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/13/2014 17:38:51</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

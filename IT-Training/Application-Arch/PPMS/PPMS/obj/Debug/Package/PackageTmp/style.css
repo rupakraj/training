@@ -1,0 +1,54 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#body-wrapper {
+    width: 1200px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#header {
+    height: 100px;
+    background: #b6ff00;
+    padding: 10px;
+    text-align: center;
+}
+
+#body {
+}
+
+#body-left {
+    width: 200px;
+    float: left;
+    min-height: 500px;
+}
+
+#body-right {
+    margin: 10px 0px 0px 210px;
+}
+
+#footer {
+    height: 50px;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+#logo{
+    float:left;
+    padding:0px 0px 0px 50px;
+}
+
+#user{
+    float:right;
+    font-size:11px;
+}
+
+#data-table{
+    border:1px solid #ff6a00;
+}
